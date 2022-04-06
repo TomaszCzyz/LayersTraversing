@@ -16,7 +16,7 @@ Console.WriteLine(inputData);
 Console.WriteLine(graph.ToString());
 // Console.WriteLine(graph.ToString(inputData.NodeMappings));
 
-var paths = Algorithms.DfsModified(graph, inputData.RequiredNodes, inputData.RequiredNoOfPaths);
+var paths = Algorithms.PathFinder(graph, inputData.RequiredNodes, inputData.RequiredNoOfPaths);
 
 Console.WriteLine();
 foreach (var graphPath in paths)

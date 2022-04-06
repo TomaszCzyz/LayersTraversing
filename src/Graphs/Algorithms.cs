@@ -2,7 +2,7 @@
 
 public class Algorithms
 {
-    public static IEnumerable<GraphPath> DfsModified(Graph graph, Dictionary<int, int> requiredNodes, int requiredNoOfPaths)
+    public static IEnumerable<GraphPath> PathFinder(Graph graph, Dictionary<int, int> requiredNodes, int requiredNoOfPaths)
     {
         var requiredNodesCopy = new Dictionary<int, int>(requiredNodes);
         var currentNoOfPaths = 0;
