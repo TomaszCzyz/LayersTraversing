@@ -1,0 +1,9 @@
+﻿4
+a b c
+d e
+f g h
+i j
+4
+a 1
+b 1
+d 2

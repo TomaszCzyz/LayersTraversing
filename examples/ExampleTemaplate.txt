@@ -1,0 +1,8 @@
+﻿4       <- number of layers
+a b c   <- layers
+d e
+f g h
+i j
+4       <- number of paths
+a 1     <- required nodes (node name [space] node quantity)
+d 2
